@@ -1,6 +1,5 @@
 #include "highlighter.h"
 #include <QRegExp>
-#include <QDebug>
 #include <QTextCharFormat>
 #include <QTextDocument>
 
