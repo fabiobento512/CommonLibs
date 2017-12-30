@@ -7,3 +7,7 @@
 # ignore C++ object files
 *.o
 *.lo
+
+# ignore possible svn folders
+.svn
+
