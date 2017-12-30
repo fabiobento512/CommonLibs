@@ -6,3 +6,4 @@
 
 # ignore C++ object files
 *.o
+*.lo
