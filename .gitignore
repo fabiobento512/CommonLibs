@@ -3,3 +3,6 @@
 
 # ignore MacOS specific files
 *.DS_Store
+
+# ignore C++ object files
+*.o
