@@ -31,7 +31,7 @@ Highlighter::Highlighter(QTextDocument *parent)
 
 void Highlighter::highlightBlock(const QString &text)
 {
-    for (const HighlightingRule &rule : rules) {
+    foreach (const HighlightingRule &rule, rules) {
         QRegExp expression(rule.pattern);
         int index = expression.indexIn(text);
 
