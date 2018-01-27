@@ -1,2 +1,2 @@
 # CommonLibs
-CommonLibs for random-guy C++ Qt Projects 
+CommonLibs for fabiobento512 C++ Qt Projects 
