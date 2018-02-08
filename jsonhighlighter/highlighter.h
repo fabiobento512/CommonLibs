@@ -11,7 +11,7 @@ class Highlighter: public QSyntaxHighlighter
 {
 public:
      Highlighter(QTextDocument *parent = 0);
-private:
+protected:
      struct HighlightingRule
      {
          QRegExp pattern;

@@ -26,7 +26,7 @@ THE SOFTWARE.
 
 // This XML highligter is the same from Dmitry Ivanov available here:
 // https://github.com/d1vanov/basic-xml-syntax-highlighter
-// with some slightly modifications by random-guy (https://github.com/random-guy) 
+// with some slightly modifications by fabiobento512 (https://github.com/fabiobento512) 
 // (like different colors, and remove of unneeded constructors)
 
 #ifndef BASIC_XML_SYNTAX_HIGHLIGHTER_H
@@ -43,7 +43,7 @@ public:
 
 protected:
     virtual void highlightBlock(const QString & text);
-
+		
 private:
     void highlightByRegex(const QTextCharFormat & format,
                           const QRegExp & regex, const QString & text);
@@ -51,7 +51,7 @@ private:
     void setRegexes();
     void setFormats();
 
-private:
+protected:
     QTextCharFormat     m_xmlKeywordFormat;
     QTextCharFormat     m_xmlElementFormat;
     QTextCharFormat     m_xmlAttributeFormat;
